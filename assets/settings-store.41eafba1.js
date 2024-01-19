@@ -1,0 +1,1 @@
+import{W as a,r as s}from"./index.402efbac.js";const t="v1",c=a("settings-store",()=>{const e=s(),o=s(!1),r=s(!1);function n(){e.value=t}function i(){e.value!=t&&n()}return{inValidateVersion:i,showFraction:o,showOptions:r}},{persist:{afterRestore:e=>{e.store.inValidateVersion()}}});export{c as u};
